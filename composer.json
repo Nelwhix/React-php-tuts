@@ -1,0 +1,23 @@
+{
+    "name": "nelwhix/react-php-l01",
+    "description": "learning reactphp",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nelwhix\\ReactPhpL01\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nelson Isioma",
+            "email": "58360242+Nelwhix@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "react/event-loop": "^1.3.0",
+        "react/stream": "^1.2",
+        "react/promise": "^2.9",
+        "react/socket": "^1.12"
+    }
+}
